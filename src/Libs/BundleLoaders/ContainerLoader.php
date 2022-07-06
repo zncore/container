@@ -2,10 +2,10 @@
 
 namespace ZnCore\Container\Libs\BundleLoaders;
 
-use ZnCore\Base\Arr\Helpers\ArrayHelper;
-use ZnCore\Base\Bundle\Base\BaseLoader;
-use ZnCore\Base\Instance\Libs\Resolvers\InstanceResolver;
-use ZnCore\Base\Instance\Libs\Resolvers\MethodParametersResolver;
+use ZnCore\Arr\Helpers\ArrayHelper;
+use ZnCore\Bundle\Base\BaseLoader;
+use ZnCore\Instance\Libs\Resolvers\InstanceResolver;
+use ZnCore\Instance\Libs\Resolvers\MethodParametersResolver;
 use ZnCore\Container\Interfaces\ContainerConfiguratorInterface;
 use ZnCore\Container\Libs\ContainerConfigurators\ArrayContainerConfigurator;
 use ZnCore\EntityManager\Interfaces\EntityManagerConfiguratorInterface;

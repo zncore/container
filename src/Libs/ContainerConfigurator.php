@@ -5,8 +5,8 @@ namespace ZnCore\Container\Libs;
 use ZnCore\Container\Libs\Container;
 use Psr\Container\ContainerInterface;
 use ZnCore\Entity\Exceptions\NotFoundException;
-use ZnCore\Base\Instance\Helpers\InstanceHelper;
-use ZnCore\Base\Arr\Helpers\ArrayHelper;
+use ZnCore\Instance\Helpers\InstanceHelper;
+use ZnCore\Arr\Helpers\ArrayHelper;
 use ZnCore\Container\Interfaces\ContainerConfiguratorInterface;
 use ZnCore\Container\Libs\ContainerConfigurators\IlluminateContainerConfigurator;
 
