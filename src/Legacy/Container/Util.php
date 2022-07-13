@@ -12,7 +12,7 @@ class Util
      *
      * From Arr::wrap() in Illuminate\Support.
      *
-     * @param  mixed  $value
+     * @param mixed $value
      * @return array
      */
     public static function arrayWrap($value)
@@ -29,7 +29,7 @@ class Util
      *
      * From global value() helper in Illuminate\Support.
      *
-     * @param  mixed  $value
+     * @param mixed $value
      * @return mixed
      */
     public static function unwrapIfClosure($value)
@@ -42,20 +42,20 @@ class Util
      *
      * From Reflector::getParameterClassName() in Illuminate\Support.
      *
-     * @param  \ReflectionParameter  $parameter
+     * @param \ReflectionParameter $parameter
      * @return string|null
      */
     public static function getParameterClassName($parameter)
     {
         $type = $parameter->getType();
 
-        if (! $type instanceof ReflectionNamedType || $type->isBuiltin()) {
+        if (!$type instanceof ReflectionNamedType || $type->isBuiltin()) {
             return;
         }
 
         $name = $type->getName();
 
-        if (! is_null($class = $parameter->getDeclaringClass())) {
+        if (!is_null($class = $parameter->getDeclaringClass())) {
             if ($name === 'self') {
                 return $class->getName();
             }
