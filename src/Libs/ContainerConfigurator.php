@@ -4,7 +4,7 @@ namespace ZnCore\Container\Libs;
 
 use ZnCore\Container\Libs\Container;
 use Psr\Container\ContainerInterface;
-use ZnDomain\Entity\Exceptions\NotFoundException;
+use ZnCore\Contract\Common\Exceptions\NotFoundException;
 use ZnCore\Instance\Helpers\InstanceHelper;
 use ZnCore\Arr\Helpers\ArrayHelper;
 use ZnCore\Container\Interfaces\ContainerConfiguratorInterface;
