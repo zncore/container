@@ -10,6 +10,9 @@ use ZnCore\Instance\Libs\Resolvers\InstanceResolver;
 use ZnCore\Instance\Libs\Resolvers\MethodParametersResolver;
 use ZnDomain\EntityManager\Interfaces\EntityManagerConfiguratorInterface;
 
+/**
+ * Загрузчик конфигурации контейнера
+ */
 class ContainerLoader extends BaseLoader
 {
 
