@@ -2,10 +2,9 @@
 
 namespace ZnCore\Container\Libs\ContainerConfigurators;
 
-use ZnCore\Container\Libs\Container;
 use Psr\Container\ContainerInterface;
-use ZnCore\Instance\Helpers\ClassHelper;
 use ZnCore\Container\Interfaces\ContainerConfiguratorInterface;
+use ZnCore\Container\Libs\Container;
 
 class IlluminateContainerConfigurator implements ContainerConfiguratorInterface
 {
@@ -15,7 +14,6 @@ class IlluminateContainerConfigurator implements ContainerConfiguratorInterface
     public function __construct(ContainerInterface $container)
     {
         $this->container = $container;
-//        ClassHelper::checkInstanceOf($container, Container::class);
     }
 
     public function importFromDir(array $dirs): void {

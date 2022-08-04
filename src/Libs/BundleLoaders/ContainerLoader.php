@@ -4,6 +4,7 @@ namespace ZnCore\Container\Libs\BundleLoaders;
 
 use ZnCore\Arr\Helpers\ArrayHelper;
 use ZnCore\Bundle\Base\BaseLoader;
+use ZnCore\Code\Helpers\DeprecateHelper;
 use ZnCore\Container\Interfaces\ContainerConfiguratorInterface;
 use ZnCore\Container\Libs\ContainerConfigurators\ArrayContainerConfigurator;
 use ZnCore\Instance\Libs\Resolvers\InstanceResolver;
